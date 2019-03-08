@@ -8,7 +8,10 @@
 export default {
   name: "BookList",
   date() {
+    return {
+      
     title: "All Books";
+    }
   }
 };
 </script>
