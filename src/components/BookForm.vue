@@ -1,5 +1,4 @@
 <template>
-  import { METHODS } from 'http';
   <div>
     <form v-on:submit.prevent="bookSubmit(bookTitle, bookAuthor)" class action="#" method="post">
       <input v-model="bookTitle" type="text" name="title" value placeholder="Book Title">
